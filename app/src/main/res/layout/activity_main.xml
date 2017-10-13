@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liyiheng.lightsocks.MainActivity">
+
+    <EditText
+        android:text="192.168.1.67:34263"
+        android:id="@+id/editText_remote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:text="ErNyw8/fZEwdX33BMxTIwLvXkIavZ0skXRoJq83a05JjlR5coi4+G/93PWomno2hSb9ZIoVGE5EHGFg5iouUVL5pNJhu5E3iYG2dzPA2FyiHaL2XAELgSnMEt4i8IGIyzk/omkTUe8LJ/nB2ny86cZzq629+QaDyjngjj7mosYOqW9zLYX+EsqSTtcdF76wCZRUQbAwNO+mutu4OUwtRQ5bxeoAwZsRVuiGt+fyp4dbeUO3ZA1J5NSXK0lbsdP0c9ywZJ0DQ2Ix8mS3V8zE89U4R+okpxef43Strmx+wgg/lP9tXCqbR5uMBo/tIp7gIWrTGgRYG9KU3XvYFdUc4Kg=="
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:maxLines="2"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok" />
+<TextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>
