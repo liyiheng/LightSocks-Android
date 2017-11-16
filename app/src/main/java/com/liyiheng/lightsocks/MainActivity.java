@@ -40,10 +40,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         Log.e("Output", line);
                         mText.append(line);
                         if (line.contains("成功")) {
+                            //System.setProperty("https.proxySet", "true"); 
+                            System.setProperty("http.proxySet", "true");
                             System.setProperty("http.proxyHost", "127.0.0.1");
                             System.setProperty("http.proxyPort", "7448");
-                            System.setProperty("https.proxyHost", "127.0.0.1");
-                            System.setProperty("https.proxyPort", "7448");
+                            //System.setProperty("https.proxyHost", "127.0.0.1");
+                            //System.setProperty("https.proxyPort", "7448");
                         }
                     }
                 });
@@ -63,8 +65,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-//    System.clearProperty("http.proxyHost");
-//System.clearProperty("http.proxyPort");
-//System.clearProperty("https.proxyHost");
-//System.clearProperty("https.proxyPort");
+// System.clearProperty("http.proxyHost");
+// System.clearProperty("http.proxyPort");
+// System.clearProperty("https.proxyHost");
+// System.clearProperty("https.proxyPort");
 }
