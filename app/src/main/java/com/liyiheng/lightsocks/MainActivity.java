@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         String args = "-password " + mPasswd.getText().toString() + " -remote " + mRemote.getText().toString();
-        Command.run(this, R.raw.lightsocks_local_linux_arm, args, new Command.CommandListener() {
+        Command.run(this, R.raw.lightsocks, args, new Command.CommandListener() {
             @Override
             public void lineOut(final String line) {
                 if (TextUtils.isEmpty(line)) {
