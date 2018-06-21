@@ -6,5 +6,7 @@
 ### TODO
 - lightsocks依赖换为原版，在Java层生成/修改配置文件
 - Android系统代理
+- UI
+- Service
 
 ![screenshot](screenshot.jpg)
