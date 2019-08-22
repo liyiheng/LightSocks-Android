@@ -9,4 +9,4 @@
 - UI
 - Service
 
-![screenshot](screenshot.jpg)
+![screenshot](smaller.jpg)
