@@ -1,0 +1,10 @@
+[package]
+name = "lightsocks-rs"
+version = "0.1.0"
+authors = ["liyiheng <liyihenggnehiyil@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+base64 = "0.10.0"
+rand = "0.6"
+tokio = "0.1"
