@@ -1,0 +1,23 @@
+builds:
+  - binary: lightsocks-local
+    main: ./cmd/lightsocks-local/main.go
+    goos:
+       - windows
+       - darwin
+       - linux
+       - freebsd
+    goarch:
+       - amd64
+       - 386
+       - arm
+  - binary: lightsocks-server
+    main: ./cmd/lightsocks-server/main.go
+    goos:
+       - windows
+       - darwin
+       - linux
+       - freebsd
+    goarch:
+       - amd64
+       - 386
+       - arm
