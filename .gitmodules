@@ -1,3 +1,0 @@
-[submodule "lightsocks"]
-	path = lightsocks
-	url = git@github.com:XanthusL/lightsocks.git
