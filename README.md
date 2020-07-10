@@ -10,3 +10,7 @@
 - Service
 
 ![screenshot](smaller.jpg)
+
+### 类似项目
+
+[Xsocks for Android](https://github.com/dosgo/xSocks-android)
